@@ -16,10 +16,10 @@
     // Supprimez le troisième élément.
     // Affichez le contenu final du tableau.
 
-    $tableau = [];
-    array_push($tableau, 1, 2, 3, 4, 5);
-    unset($tableau[3]);
-    print_r($tableau);
+    // $tableau = [];
+    // array_push($tableau, 1, 2, 3, 4, 5);
+    // unset($tableau[3]);
+    // print_r($tableau);
 
     // Recherche et modification
     // Créez un tableau contenant plusieurs noms de pays.
@@ -27,10 +27,10 @@
     // Si oui, remplacez "France" par "Espagne".
     // Affichez le tableau modifié.
 
-    $table = ["France", "England", "Greece"];
-    $replace = array(0 => "Espagne");
-    $newtable = array_replace($table, $replace);
-    print_r($newtable);
+    // $table = ["France", "England", "Greece"];
+    // $replace = array(0 => "Espagne");
+    // $newtable = array_replace($table, $replace);
+    // print_r($newtable);
 
     # Tirage du loto :
     /*
@@ -45,35 +45,35 @@
     - exemple : $nombreAleatoire = rand(1, 49);
     */
 
-    $numbers = array();
+    // $numbers = array();
 
-    for ($n = 0; $n < 5; ) {
-        // Generate a random number
-        $r = rand(1, 49);
+    // for ($n = 0; $n < 5; ) {
+    //     // Generate a random number
+    //     $r = rand(1, 49);
 
-        // Checking if the number is not in the array
-        if (!in_array($r, $numbers)) {
-            $numbers[$n] = $r;
-            $n++;
-        }
-    }
+    //     // Checking if the number is not in the array
+    //     if (!in_array($r, $numbers)) {
+    //         $numbers[$n] = $r;
+    //         $n++;
+    //     }
+    // }
 
-    // Order the array in ascending order
-    sort($numbers);
+    // // Order the array in ascending order
+    // sort($numbers);
 
-    // Print the numbers drawn with hyphens
-    for ($n = 0; $n < 5; $n++) {
-        if ($numbers[$n] == 0) {
-            echo ("<td>?</td>");
-        } else {
-            echo ("<td>" . $numbers[$n] . "</td>");
-        }
+    // // Print the numbers drawn with hyphens
+    // for ($n = 0; $n < 5; $n++) {
+    //     if ($numbers[$n] == 0) {
+    //         echo ("<td>?</td>");
+    //     } else {
+    //         echo ("<td>" . $numbers[$n] . "</td>");
+    //     }
 
-        // Add a hyphen between numbers (except for the last number)
-        if ($n < 4) {
-            echo ("<td>-</td>");
-        }
-    }
+    //     // Add a hyphen between numbers (except for the last number)
+    //     if ($n < 4) {
+    //         echo ("<td>-</td>");
+    //     }
+    // }
 
     # Tirage EuroMillions
     /*
@@ -135,21 +135,21 @@
 
     // Correction
 
-    function tirage($num, $max)
-    {
-        $numeros = [];
-        while (count($numeros) < $num) {
-            $numeroAleatoire = rand(1, $max);
-            if (!in_array($numeroAleatoire, $numeros)) {
-                $numeros[] = $numeroAleatoire;
-            }
-        }
-        sort($numeros);
-        return $numeros;
-    }
-    $numeros = tirage(5, 50);
-    $etoiles = tirage(2, 12);
-    echo implode('-', $numeros) . " " . implode('-', $etoiles);
+    // function tirage($num, $max)
+    // {
+    //     $numeros = [];
+    //     while (count($numeros) < $num) {
+    //         $numeroAleatoire = rand(1, $max);
+    //         if (!in_array($numeroAleatoire, $numeros)) {
+    //             $numeros[] = $numeroAleatoire;
+    //         }
+    //     }
+    //     sort($numeros);
+    //     return $numeros;
+    // }
+    // $numeros = tirage(5, 50);
+    // $etoiles = tirage(2, 12);
+    // echo implode('-', $numeros) . " " . implode('-', $etoiles);
     ?>
 </body>
 
