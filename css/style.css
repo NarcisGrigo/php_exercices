@@ -1,0 +1,211 @@
+body {
+  background-image: url(../img/70de6b1d8adecd34b4a3e086ac7a855f.jpg);
+}
+
+.container {
+  background-color: #f5eee9;
+
+  width: 40%;
+
+  height: 500px;
+
+  margin-top: 151px;
+  margin-left: 535px;
+}
+
+h1 {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  padding-top: 20px;
+
+  color: rgba(73, 52, 8, 0.77);
+}
+
+form {
+  width: 80%;
+
+  margin: auto;
+
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  padding-top: 40px;
+}
+
+hr {
+  width: 200px;
+
+  margin: auto;
+}
+
+.check {
+  margin: auto;
+}
+
+input {
+  height: 20px;
+}
+
+#nom {
+  text-align: center;
+
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  margin: 10px;
+
+  display: flex;
+
+  width: 196px;
+  height: 26px;
+}
+
+#email {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  margin: 10px;
+
+  display: flex;
+
+  width: 196px;
+  height: 26px;
+}
+
+#téléphone {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  margin: 10px;
+
+  display: flex;
+
+  width: 196px;
+  height: 26px;
+}
+
+select {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+}
+
+option {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+}
+
+.totalht {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  width: 196px;
+}
+
+.totalttc {
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+
+  width: 196px;
+}
+
+#plat {
+  display: flex;
+
+  margin: 20px;
+
+  border: 1px;
+
+  color: rgb(122, 83, 26);
+
+  background-color: rgb(232, 215, 183);
+
+  /* text-align: center; */
+
+  height: 35px;
+
+  display: flex;
+
+  margin: 20px;
+
+  width: 196px;
+}
+
+#dessert {
+  display: flex;
+
+  margin: 20px;
+
+  border: 1px;
+
+  color: rgb(122, 83, 26);
+
+  background-color: rgb(232, 215, 183);
+
+  height: 35px;
+
+  display: flex;
+
+  margin: 20px;
+
+  width: 196px;
+}
+
+select {
+  border: 1px solid black;
+
+  height: 30px;
+
+  width: 200px;
+
+  text-align: center;
+
+  font-family: "Barlow", sans-serif;
+}
+
+.div_1 {
+  display: flex;
+
+  flex-direction: column;
+
+  width: 200px;
+
+  margin: auto;
+}
+
+.div_2 {
+  flex-direction: column;
+
+  width: 150px;
+
+  margin: auto;
+}
+
+.div_3 {
+  padding-bottom: 42px;
+
+  display: flex;
+
+  width: 503px;
+}
+
+input {
+  margin: 30px;
+
+  width: 50px;
+}
+
+.accepte {
+  padding-top: 30px;
+
+  color: rgba(73, 52, 8, 0.77);
+}
