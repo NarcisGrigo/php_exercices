@@ -1,0 +1,140 @@
+
+.grey {
+    width: 400px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    color: gray;
+    background-color: #90573e;
+}
+
+/* input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 380px;
+    height: 43px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: gray;
+    background-color: rgb(237, 235, 235);
+} */
+
+.inscription {
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #c0a58e;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    background-color:#c0a58e;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+    width: 80%;
+    height: 50px;
+    border: 2px solid rgb(98, 97, 97);
+    background-color:#c0a58e;
+    margin-bottom: 10px;
+}
+
+.btnn {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.mail {
+    margin-bottom: 10px;
+}
+
+.psdo {
+    margin-bottom: 10px;
+}
+
+.md {
+    margin-bottom: 10px;
+}
+
+.cmd {
+    margin-bottom: 10px;
+}
+
+.upd {
+    margin-bottom: 10px;
+    border:2px solid rgb(98, 97, 97);
+    width: 400px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #90573e;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    translate: -10px 0px;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #90573e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #b0b4b7;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+}
+
+input::placeholder {
+    padding: 20px;
+    color: #b0b4b7;
+}
+
+* {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body {
+    background-image: url(../img/photo-1519060825752-c4832f2d400a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: table;
+    margin: auto;
+    text-align: center;
+    translate: 0px 150px;
+}
